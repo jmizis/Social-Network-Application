@@ -39,8 +39,8 @@ const userSchema = new Schema(
 {toJSON: {virtuals: true}}
 );
 
-// Add virtual
+
 userSchema.virtual("friendCount").get(function (){return this.friends.length})
-// Make model of User
+
 const User = model('User', userSchema)
 module.exports = User;

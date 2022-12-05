@@ -10,7 +10,7 @@ const {
   deleteReaction,
 } = require('../../controllers/thought-controller');
 
-// Use exported functions from line 3 to create routes
+
 router.route('/').get(getAllThoughts).post(createThought)
 
 router.route('/:ThoughtId').get(getThoughtsById).put(updateThought).delete(deleteThought)

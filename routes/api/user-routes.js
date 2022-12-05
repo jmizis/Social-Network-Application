@@ -10,7 +10,7 @@ const {
   deleteFriend,
 } = require('../../controllers/user-controller');
 
-// Use exported functions from line 3 to create routes
+
 //  3001/api/users
 router.route('/').get(getAllUsers).post(createUser)
 // 3001/api/users/:userId

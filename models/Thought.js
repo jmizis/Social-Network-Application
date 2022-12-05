@@ -32,7 +32,7 @@ const thoughtSchema = new Schema(
 // Add virtual
 thoughtSchema.virtual('reactionCount').get(function(){return this.reaction.length})
 
-// Make model of Thought
+
 // casting a model
 const Thought = model('Thought', thoughtSchema)
 module.exports = Thought;

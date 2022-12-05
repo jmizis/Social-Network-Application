@@ -22,6 +22,9 @@ On Github I was able to create a new repository where I was able to push all my 
 
 For this assignment after creating our code we had to run it in insonmia so we can demonstrate creating, update, and delete users. We also created friends for the users and and thoughts. 
 
+![Screenshot (3)](https://user-images.githubusercontent.com/107073756/205739208-75b85159-ec3d-4c67-876d-67ff57af7a82.png)
+
+
 
 
 
